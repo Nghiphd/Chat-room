@@ -140,7 +140,7 @@ public class View extends javax.swing.JFrame implements MessageHandler {
     }// </editor-fold>//GEN-END:initComponents
 
     private void messageInputActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_messageInputActionPerformed
-        // TODO add your handling code here:
+       
     }//GEN-LAST:event_messageInputActionPerformed
 
     private void usernameKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_usernameKeyReleased
@@ -165,4 +165,9 @@ public class View extends javax.swing.JFrame implements MessageHandler {
     private javax.swing.JTextField messageInput;
     private javax.swing.JTextField username;
     // End of variables declaration//GEN-END:variables
+
+    @Override
+    public void messageHandler(String messageName, Object messagePayload) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
